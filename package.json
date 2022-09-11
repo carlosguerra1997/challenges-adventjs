@@ -1,0 +1,9 @@
+{
+  "name": "adventjschallenges",
+  "version": "1.0.0",
+  "author": "Carlos Guerra García",
+  "description": "Proyecto en el que resuelvo los 25 retos de AdventJS",
+  "main": "index.js",
+  "keywords": [],
+  "license": "ISC"
+}
