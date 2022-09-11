@@ -3,6 +3,7 @@ Considera una lista/array de ovejas. Cada oveja tiene un nombre y un color. Haz 
 
 Por ejemplo, si tenemos las ovejas:
 
+```
 const ovejas = [
   { name: 'Noa', color: 'azul' },
   { name: 'Euge', color: 'rojo' },
@@ -11,13 +12,18 @@ const ovejas = [
   { name: 'AAAAAaaaaa', color: 'rojo' },
   { name: 'Nnnnnnnn', color: 'rojo'}
 ]
+```
 
 Al ejecutar el método debería devolver lo siguiente:
 
+```
 const ovejasFiltradas = contarOvejas(ovejas)
-
 console.log(ovejasFiltradas)
 
-// [{ name: 'Navidad', color: 'rojo' },
-//  { name: 'Ki Na Ma', color: 'rojo' }]
-Recuerda. Debe contener las dos letras 'a' y 'n' en el nombre. No cuentes ovejas que sólo tenga una de las letras, debe tener ambas.
+[
+  { name: 'Navidad', color: 'rojo' },
+  { name: 'Ki Na Ma', color: 'rojo' }
+]
+```
+
+Recuerda. <strong>Debe contener las dos letras 'a' y 'n' en el nombre</strong>. No cuentes ovejas que sólo tenga una de las letras, debe tener ambas.
